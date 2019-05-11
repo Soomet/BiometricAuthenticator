@@ -15,30 +15,73 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        print("didFinishLaunchingWithOptions")
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        print("applicationWillResignActive")
+        
+        // Display passcode lock screen here
+        displayPasscodeLockScreenIfNeeded()
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        print("applicationDidEnterBackground")
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        print("applicationWillEnterForeground")
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        print("applicationDidBecomeActive")
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        print("applicationWillTerminate")
+    }
+    
+    // MARK: - Private Function
+    
+    private func displayPasscodeLockScreenIfNeeded() {
+        let passcodeModel = PasscodeModel()
+        
+        // パスコードロックを設定していない場合は何もしない
+        if !passcodeModel.existsHashedPasscode() {
+            return
+        }
+        
+        if let rootViewController = UIApplication.shared.keyWindow?.rootViewController {
+            
+            // 現在のrootViewControllerにおいて一番上に表示されているViewControllerを取得する
+            var topViewController: UIViewController = rootViewController
+            while let presentedViewController = topViewController.presentedViewController {
+                topViewController = presentedViewController
+            }
+            
+            // すでにパスコードロック画面がかぶせてあるかを確認する
+            let isDisplayedPasscodeLock: Bool = topViewController.children.map{
+                return $0 is PasscodeViewController
+                }.contains(true)
+            
+            // パスコードロック画面がかぶせてなければかぶせる
+            if !isDisplayedPasscodeLock {
+                let nav = UINavigationController(rootViewController: getPasscodeViewController())
+                nav.modalPresentationStyle = .overFullScreen
+                nav.modalTransitionStyle   = .crossDissolve
+                topViewController.present(nav, animated: true, completion: nil)
+            }
+        }
+    }
+    
+    private func getPasscodeViewController() -> PasscodeViewController {
+        // 遷移先のViewControllerに関する設定をする
+        let sb = UIStoryboard(name: "Passcode", bundle: nil)
+        let vc = sb.instantiateInitialViewController() as! PasscodeViewController
+        vc.setTargetInputPasscodeType(.displayPasscodeLock)
+        vc.setTargetPresenter(PasscodePresenter(previousPasscode: nil))
+        return vc
     }
 
 

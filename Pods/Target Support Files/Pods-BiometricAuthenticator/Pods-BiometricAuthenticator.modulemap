@@ -1,0 +1,6 @@
+framework module Pods_BiometricAuthenticator {
+  umbrella header "Pods-BiometricAuthenticator-umbrella.h"
+
+  export *
+  module * { export * }
+}

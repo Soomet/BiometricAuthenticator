@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953CB2D42286D541004CE9A1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2D32286D541004CE9A1 /* UIViewControllerExtension.swift */; };
+		953CB2D72286D9B0004CE9A1 /* GlobalTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953CB2D62286D9B0004CE9A1 /* GlobalTabBar.storyboard */; };
+		953CB2D92286D9C4004CE9A1 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2D82286D9C4004CE9A1 /* GlobalTabBarController.swift */; };
+		953CB2DD2286DCA6004CE9A1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2DC2286DCA6004CE9A1 /* SettingViewController.swift */; };
+		953CB2E12286DDDA004CE9A1 /* CryptoAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2E02286DDDA004CE9A1 /* CryptoAlgorithm.swift */; };
+		953CB2E42286DDFE004CE9A1 /* LocalAuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2E32286DDFE004CE9A1 /* LocalAuthenticationType.swift */; };
+		953CB2E62286DE33004CE9A1 /* TabBarItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2E52286DE33004CE9A1 /* TabBarItemType.swift */; };
+		953CB2E82286DE92004CE9A1 /* InputPasscodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2E72286DE92004CE9A1 /* InputPasscodeType.swift */; };
+		953CB2EA2286DEDC004CE9A1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2E92286DEDC004CE9A1 /* StringExtension.swift */; };
+		953CB2EC2286DEF6004CE9A1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2EB2286DEF6004CE9A1 /* UIColorExtension.swift */; };
+		953CB2EE2286DF54004CE9A1 /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2ED2286DF54004CE9A1 /* NSObjectProtocolExtension.swift */; };
+		953CB2F02286DF81004CE9A1 /* PasscodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2EF2286DF81004CE9A1 /* PasscodeModel.swift */; };
+		953CB2F32286DFBD004CE9A1 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2F22286DFBD004CE9A1 /* AppConstant.swift */; };
+		953CB2F62286DFD6004CE9A1 /* LocalAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2F52286DFD6004CE9A1 /* LocalAuthenticationManager.swift */; };
+		953CB2F82286E012004CE9A1 /* PasscodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB2F72286E012004CE9A1 /* PasscodePresenter.swift */; };
+		953CB2FF2286E1AE004CE9A1 /* Passcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953CB2FE2286E1AE004CE9A1 /* Passcode.storyboard */; };
+		953CB3012286E20E004CE9A1 /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB3002286E20E004CE9A1 /* PasscodeViewController.swift */; };
+		953CB3032286E291004CE9A1 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953CB3022286E291004CE9A1 /* Setting.storyboard */; };
+		953CB3052286E349004CE9A1 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB3042286E349004CE9A1 /* CustomViewBase.swift */; };
+		953CB30E2286E44D004CE9A1 /* InputPasscodeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB30D2286E44D004CE9A1 /* InputPasscodeDisplayView.swift */; };
+		953CB3102286E4F8004CE9A1 /* InputPasscodeKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB30F2286E4F8004CE9A1 /* InputPasscodeKeyboardView.swift */; };
+		953CB3152286F100004CE9A1 /* InputPasscodeDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953CB3142286F100004CE9A1 /* InputPasscodeDisplayView.xib */; };
+		953CB3172286F1CD004CE9A1 /* InputPasscodeKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953CB3162286F1CD004CE9A1 /* InputPasscodeKeyboardView.xib */; };
 		9556CC0022869D0B00BDA6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556CBFF22869D0B00BDA6A6 /* AppDelegate.swift */; };
-		9556CC0222869D0B00BDA6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556CC0122869D0B00BDA6A6 /* ViewController.swift */; };
+		9556CC0222869D0B00BDA6A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556CC0122869D0B00BDA6A6 /* MainViewController.swift */; };
 		9556CC0522869D0B00BDA6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9556CC0322869D0B00BDA6A6 /* Main.storyboard */; };
 		9556CC0722869D0D00BDA6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9556CC0622869D0D00BDA6A6 /* Assets.xcassets */; };
 		9556CC0A22869D0D00BDA6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9556CC0822869D0D00BDA6A6 /* LaunchScreen.storyboard */; };
+		FF684598C216AC255D7AB874 /* Pods_BiometricAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5167936035F80FF09E009571 /* Pods_BiometricAuthenticator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		493409A113DB19C00EC6B99A /* Pods-BiometricAuthenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiometricAuthenticator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiometricAuthenticator/Pods-BiometricAuthenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		5167936035F80FF09E009571 /* Pods_BiometricAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiometricAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953CB2D32286D541004CE9A1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		953CB2D62286D9B0004CE9A1 /* GlobalTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlobalTabBar.storyboard; sourceTree = "<group>"; };
+		953CB2D82286D9C4004CE9A1 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
+		953CB2DC2286DCA6004CE9A1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		953CB2E02286DDDA004CE9A1 /* CryptoAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAlgorithm.swift; sourceTree = "<group>"; };
+		953CB2E32286DDFE004CE9A1 /* LocalAuthenticationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationType.swift; sourceTree = "<group>"; };
+		953CB2E52286DE33004CE9A1 /* TabBarItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemType.swift; sourceTree = "<group>"; };
+		953CB2E72286DE92004CE9A1 /* InputPasscodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasscodeType.swift; sourceTree = "<group>"; };
+		953CB2E92286DEDC004CE9A1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		953CB2EB2286DEF6004CE9A1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		953CB2ED2286DF54004CE9A1 /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		953CB2EF2286DF81004CE9A1 /* PasscodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeModel.swift; sourceTree = "<group>"; };
+		953CB2F22286DFBD004CE9A1 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		953CB2F52286DFD6004CE9A1 /* LocalAuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationManager.swift; sourceTree = "<group>"; };
+		953CB2F72286E012004CE9A1 /* PasscodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodePresenter.swift; sourceTree = "<group>"; };
+		953CB2FD2286E111004CE9A1 /* BiometricAuthenticator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthenticator-Bridging-Header.h"; sourceTree = "<group>"; };
+		953CB2FE2286E1AE004CE9A1 /* Passcode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Passcode.storyboard; sourceTree = "<group>"; };
+		953CB3002286E20E004CE9A1 /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		953CB3022286E291004CE9A1 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		953CB3042286E349004CE9A1 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
+		953CB30D2286E44D004CE9A1 /* InputPasscodeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasscodeDisplayView.swift; sourceTree = "<group>"; };
+		953CB30F2286E4F8004CE9A1 /* InputPasscodeKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasscodeKeyboardView.swift; sourceTree = "<group>"; };
+		953CB3142286F100004CE9A1 /* InputPasscodeDisplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputPasscodeDisplayView.xib; sourceTree = "<group>"; };
+		953CB3162286F1CD004CE9A1 /* InputPasscodeKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputPasscodeKeyboardView.xib; sourceTree = "<group>"; };
 		9556CBFC22869D0B00BDA6A6 /* BiometricAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9556CBFF22869D0B00BDA6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9556CC0122869D0B00BDA6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9556CC0122869D0B00BDA6A6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9556CC0422869D0B00BDA6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9556CC0622869D0D00BDA6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9556CC0922869D0D00BDA6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9556CC0B22869D0D00BDA6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16F6CF5A1EFC71A5860DA10 /* Pods-BiometricAuthenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiometricAuthenticator.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiometricAuthenticator/Pods-BiometricAuthenticator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +80,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF684598C216AC255D7AB874 /* Pods_BiometricAuthenticator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101346603AF73DE0CBB2C489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				493409A113DB19C00EC6B99A /* Pods-BiometricAuthenticator.debug.xcconfig */,
+				F16F6CF5A1EFC71A5860DA10 /* Pods-BiometricAuthenticator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F5E2A0C0B7369D0C5C1A552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5167936035F80FF09E009571 /* Pods_BiometricAuthenticator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953CB2D12286D479004CE9A1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9556CC0322869D0B00BDA6A6 /* Main.storyboard */,
+				953CB2D62286D9B0004CE9A1 /* GlobalTabBar.storyboard */,
+				9556CC0822869D0D00BDA6A6 /* LaunchScreen.storyboard */,
+				953CB2FE2286E1AE004CE9A1 /* Passcode.storyboard */,
+				953CB3022286E291004CE9A1 /* Setting.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		953CB2D22286D482004CE9A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9556CC0122869D0B00BDA6A6 /* MainViewController.swift */,
+				953CB2D82286D9C4004CE9A1 /* GlobalTabBarController.swift */,
+				953CB2DC2286DCA6004CE9A1 /* SettingViewController.swift */,
+				953CB3002286E20E004CE9A1 /* PasscodeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		953CB2D52286D545004CE9A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				953CB2D32286D541004CE9A1 /* UIViewControllerExtension.swift */,
+				953CB2E92286DEDC004CE9A1 /* StringExtension.swift */,
+				953CB2EB2286DEF6004CE9A1 /* UIColorExtension.swift */,
+				953CB2ED2286DF54004CE9A1 /* NSObjectProtocolExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		953CB2E22286DDEA004CE9A1 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				953CB2E02286DDDA004CE9A1 /* CryptoAlgorithm.swift */,
+				953CB2E32286DDFE004CE9A1 /* LocalAuthenticationType.swift */,
+				953CB2E52286DE33004CE9A1 /* TabBarItemType.swift */,
+				953CB2E72286DE92004CE9A1 /* InputPasscodeType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		953CB2F12286DF86004CE9A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				953CB2EF2286DF81004CE9A1 /* PasscodeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		953CB2F42286DFC1004CE9A1 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				953CB2F22286DFBD004CE9A1 /* AppConstant.swift */,
+				953CB2F52286DFD6004CE9A1 /* LocalAuthenticationManager.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		953CB2F92286E016004CE9A1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				953CB2F72286E012004CE9A1 /* PasscodePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		953CB3062286E351004CE9A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				953CB3042286E349004CE9A1 /* CustomViewBase.swift */,
+				953CB3112286E58C004CE9A1 /* InputPasscodeDisplayView */,
+				953CB3122286E5B3004CE9A1 /* InputPasscodeKeyboardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		953CB3112286E58C004CE9A1 /* InputPasscodeDisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				953CB30D2286E44D004CE9A1 /* InputPasscodeDisplayView.swift */,
+				953CB3142286F100004CE9A1 /* InputPasscodeDisplayView.xib */,
+			);
+			path = InputPasscodeDisplayView;
+			sourceTree = "<group>";
+		};
+		953CB3122286E5B3004CE9A1 /* InputPasscodeKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				953CB30F2286E4F8004CE9A1 /* InputPasscodeKeyboardView.swift */,
+				953CB3162286F1CD004CE9A1 /* InputPasscodeKeyboardView.xib */,
+			);
+			path = InputPasscodeKeyboardView;
+			sourceTree = "<group>";
+		};
 		9556CBF322869D0B00BDA6A6 = {
 			isa = PBXGroup;
 			children = (
 				9556CBFE22869D0B00BDA6A6 /* BiometricAuthenticator */,
 				9556CBFD22869D0B00BDA6A6 /* Products */,
+				101346603AF73DE0CBB2C489 /* Pods */,
+				4F5E2A0C0B7369D0C5C1A552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +223,18 @@
 		9556CBFE22869D0B00BDA6A6 /* BiometricAuthenticator */ = {
 			isa = PBXGroup;
 			children = (
+				953CB2FD2286E111004CE9A1 /* BiometricAuthenticator-Bridging-Header.h */,
 				9556CBFF22869D0B00BDA6A6 /* AppDelegate.swift */,
-				9556CC0122869D0B00BDA6A6 /* ViewController.swift */,
-				9556CC0322869D0B00BDA6A6 /* Main.storyboard */,
 				9556CC0622869D0D00BDA6A6 /* Assets.xcassets */,
-				9556CC0822869D0D00BDA6A6 /* LaunchScreen.storyboard */,
 				9556CC0B22869D0D00BDA6A6 /* Info.plist */,
+				953CB2D22286D482004CE9A1 /* ViewController */,
+				953CB2F12286DF86004CE9A1 /* Model */,
+				953CB2F42286DFC1004CE9A1 /* Module */,
+				953CB2F92286E016004CE9A1 /* Presenter */,
+				953CB2D12286D479004CE9A1 /* Storyboard */,
+				953CB3062286E351004CE9A1 /* View */,
+				953CB2D52286D545004CE9A1 /* Extension */,
+				953CB2E22286DDEA004CE9A1 /* Enum */,
 			);
 			path = BiometricAuthenticator;
 			sourceTree = "<group>";
@@ -71,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9556CC0E22869D0D00BDA6A6 /* Build configuration list for PBXNativeTarget "BiometricAuthenticator" */;
 			buildPhases = (
+				440A393492481FA9455EEDA3 /* [CP] Check Pods Manifest.lock */,
 				9556CBF822869D0B00BDA6A6 /* Sources */,
 				9556CBF922869D0B00BDA6A6 /* Frameworks */,
 				9556CBFA22869D0B00BDA6A6 /* Resources */,
+				1957E2901C61E1ADE07FD07F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +273,7 @@
 				TargetAttributes = {
 					9556CBFB22869D0B00BDA6A6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,18 +303,88 @@
 				9556CC0A22869D0D00BDA6A6 /* LaunchScreen.storyboard in Resources */,
 				9556CC0722869D0D00BDA6A6 /* Assets.xcassets in Resources */,
 				9556CC0522869D0B00BDA6A6 /* Main.storyboard in Resources */,
+				953CB3152286F100004CE9A1 /* InputPasscodeDisplayView.xib in Resources */,
+				953CB3172286F1CD004CE9A1 /* InputPasscodeKeyboardView.xib in Resources */,
+				953CB2FF2286E1AE004CE9A1 /* Passcode.storyboard in Resources */,
+				953CB2D72286D9B0004CE9A1 /* GlobalTabBar.storyboard in Resources */,
+				953CB3032286E291004CE9A1 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1957E2901C61E1ADE07FD07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BiometricAuthenticator/Pods-BiometricAuthenticator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiometricAuthenticator/Pods-BiometricAuthenticator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440A393492481FA9455EEDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiometricAuthenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9556CBF822869D0B00BDA6A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9556CC0222869D0B00BDA6A6 /* ViewController.swift in Sources */,
+				953CB3102286E4F8004CE9A1 /* InputPasscodeKeyboardView.swift in Sources */,
+				953CB2DD2286DCA6004CE9A1 /* SettingViewController.swift in Sources */,
+				953CB2F02286DF81004CE9A1 /* PasscodeModel.swift in Sources */,
+				953CB2D92286D9C4004CE9A1 /* GlobalTabBarController.swift in Sources */,
+				953CB2EA2286DEDC004CE9A1 /* StringExtension.swift in Sources */,
+				953CB2E12286DDDA004CE9A1 /* CryptoAlgorithm.swift in Sources */,
+				953CB3012286E20E004CE9A1 /* PasscodeViewController.swift in Sources */,
+				953CB2E82286DE92004CE9A1 /* InputPasscodeType.swift in Sources */,
+				953CB30E2286E44D004CE9A1 /* InputPasscodeDisplayView.swift in Sources */,
+				9556CC0222869D0B00BDA6A6 /* MainViewController.swift in Sources */,
+				953CB2E62286DE33004CE9A1 /* TabBarItemType.swift in Sources */,
+				953CB2F62286DFD6004CE9A1 /* LocalAuthenticationManager.swift in Sources */,
 				9556CC0022869D0B00BDA6A6 /* AppDelegate.swift in Sources */,
+				953CB2F32286DFBD004CE9A1 /* AppConstant.swift in Sources */,
+				953CB2EC2286DEF6004CE9A1 /* UIColorExtension.swift in Sources */,
+				953CB2F82286E012004CE9A1 /* PasscodePresenter.swift in Sources */,
+				953CB2EE2286DF54004CE9A1 /* NSObjectProtocolExtension.swift in Sources */,
+				953CB2E42286DDFE004CE9A1 /* LocalAuthenticationType.swift in Sources */,
+				953CB3052286E349004CE9A1 /* CustomViewBase.swift in Sources */,
+				953CB2D42286D541004CE9A1 /* UIViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +528,10 @@
 		};
 		9556CC0F22869D0D00BDA6A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493409A113DB19C00EC6B99A /* Pods-BiometricAuthenticator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UU222H78J9;
 				INFOPLIST_FILE = BiometricAuthenticator/Info.plist;
@@ -291,6 +541,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumitjoshi.BiometricAuthenticator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BiometricAuthenticator/BiometricAuthenticator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +550,10 @@
 		};
 		9556CC1022869D0D00BDA6A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16F6CF5A1EFC71A5860DA10 /* Pods-BiometricAuthenticator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UU222H78J9;
 				INFOPLIST_FILE = BiometricAuthenticator/Info.plist;
@@ -309,6 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumitjoshi.BiometricAuthenticator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BiometricAuthenticator/BiometricAuthenticator-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
